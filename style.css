@@ -1,0 +1,98 @@
+/* Shared style */
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a1020;
+  margin-inline: 10rem;
+}
+
+.intro {
+  text-align: center;
+  color: #fff;
+  margin-top: 3rem;
+}
+.intro h1 {
+  padding-bottom: 10px;
+  font-size: 3rem;
+}
+a {
+  color: #ab5fd8;
+}
+
+/* Nav Styles */
+
+.navbar {
+  color: #fff;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+}
+.navbar li {
+  list-style: none;
+  margin-right: 50px;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 10px;
+}
+.navbar a:hover {
+  background-color: #1f2937;
+}
+.head-img img {
+  border-radius: 20px;
+}
+.head-img {
+  margin: 5rem;
+}
+
+/* Artical Section */
+.section-content {
+  color: #f7ffff;
+}
+
+.section-content p {
+  margin: 1rem 0 2rem;
+}
+.section-content h2 {
+  font-size: 2rem;
+}
+/* add margin and padding for ul */
+.section-content ul {
+  margin: 1rem 0 2rem;
+  padding-left: 2rem;
+}
+.section-content li {
+  margin-bottom: 1rem;
+}
+.section-content img {
+  display: block;
+  margin: 3rem auto;
+  border-radius: 10px;
+}
+
+/* Mobile Responsive  */
+@media screen and (max-width: 576px) {
+  body {
+    margin-inline: 1rem;
+  }
+  .intro h1 {
+    padding-bottom: 15px;
+    font-size: 3rem;
+  }
+  .head-img {
+    margin: 1rem;
+  }
+  .section-content img {
+    width: 100%;
+  }
+}
